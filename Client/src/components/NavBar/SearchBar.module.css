@@ -1,0 +1,8 @@
+.search {
+  display: flex;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

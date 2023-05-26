@@ -1,0 +1,94 @@
+.container {
+  /* display: flex;
+  align-items: center;
+  width: fit-content;
+  text-align: center;
+  flex-direction: column;
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-size: small; */
+  margin: 30px;
+  margin-top: 40px;
+  border: 1px solid grey;
+  background-color: rgba(15, 212, 97, 0.795);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 1px;
+  box-shadow: 0 0 10px black;
+}
+
+.container img {
+  display: flex;
+
+  width: max-content;
+  height: max-content;
+  /* height: max-content; */
+  /* justify-content: space-around; */
+  /* border: 1px solid blue; */
+}
+
+.button {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+  padding: 0.5px;
+}
+.button {
+  /* background-color: red; */
+  color: white;
+}
+.contenedorClose {
+  display: flex;
+  justify-content: flex-end;
+}
+.contenedorClose button {
+  color: white;
+  background-color: red;
+}
+
+.contendorLike {
+  display: flex;
+  justify-content: flex-start;
+}
+.contendorLike button {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 0.5px;
+}
+.dataContainer {
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+  padding: 3px;
+}
+.dataItems h2 {
+  font-size: small;
+  margin-left: 20px;
+  /* display: flex; */
+  /* flex-direction: column;  */
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  background-color: rgba(44, 44, 44, 0.541);
+  /* background: rgba(rgb(0, 0, 0.5)); */
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.nameContainer h2 {
+  font-size: medium;
+  margin: 4px;
+}
